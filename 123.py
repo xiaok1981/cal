@@ -1,4 +1,4 @@
-from operator import add,subtract,multiply,divide
+from operation import add,subtract,multiply,divide
 
 print ('Simple Calculator\n')
 
