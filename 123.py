@@ -1,11 +1,11 @@
-from operation import add,subtract,multiply,divide
+from operation import add,subtract,multiply,divide,modulus
 
 print ('Simple Calculator\n')
 
 num1 = float(input('Enter first number :'))
 num2 = float(input('Enter second number :'))
 
-operation = input("Enter operations(+,-,*,/):")
+operation = input("Enter operations(+,-,*,/,%):")
 
 if operation =="+":
     print(add(num1,num2))
@@ -15,5 +15,7 @@ elif operation =="*":
     print(multiply(num1,num2))
 elif operation =="/":
     print(divide(num1,num2))
+elif operation =="%":
+    print(modulus(num1,num2))
 else:
     print("Invalid Operation")
