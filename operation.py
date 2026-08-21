@@ -11,3 +11,8 @@ def divide(a,b):
 
 def multiply(a,b):
     return a * b
+
+def modulus(a,b):
+    if b == 0:
+        return 'Cannot perform modulus by Zero'
+    return a % b
