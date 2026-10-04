@@ -29,3 +29,9 @@ function calculate(operator) {
     }
     document.getElementById("result").innerHTML = result;
 }
+
+function clearCalculator() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").textContent = "";
+}

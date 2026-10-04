@@ -24,9 +24,9 @@ body {
 }
 
 .calculator button {
-    padding: 10px;
+    padding: 10px 14px;
     margin: 5px;
-    width: 50px;
+    min-width: 50px;
     border-radius: 5px;
     border: 1px solid #ccc;
     cursor: pointer;
